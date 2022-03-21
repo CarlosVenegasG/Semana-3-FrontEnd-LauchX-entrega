@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es"> <!--Idioma de la pagina español-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Version de navegador que usa el explorador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Escala la página dependiendo del tamaño de la pagina-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+
+</head>
+<body>
+<header> <!--Barra de navegacion-->
+  <div>
+    <div>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+          
+          <span style="color:royalblue; "><b>&nbsp;&nbsp;Vacunémonos</b></span>
+          
+        </a>
+  
+        <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuboton"
+        aria-controls="menuboton"
+        aria-expanded="false"
+        aria-lable="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuboton">
+          <ul class="navbar-nav ms-auto text-center">
+            <li>
+              <a class="nav-link active" href="index.html" style="color:royalblue;"><b>Base de Datos</b></a>
+            </li>
+            
+            <li>
+              <a class="nav-link" href="#stripe" style="color:royalblue;">Educación</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#noticia" style="color:royalblue;">Noticias</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#regulacion" style="color:royalblue;">Regulación</a>
+            </li>
+            <li>
+              <a class="btn btn-primary" href="#registro" role="button">Regístrate</a>
+              
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      
+      <div class ="cover d-flex justify-content-center align-items-center flex-column"
+        style="background-image: url(imagenes/portadaindex.jpg);">
+        <h1>Combate A Los Virus Con Vacunas</h1>
+        <p>Al vacunarte ayudas a que la pandemia termine pronto </p>
+        <div class="row">
+          <button class ="btn btn-primary">Más información</button>
+        </div>
+        
+      </div>
+</header>
+
+<section>
+  <div class ="container mt-5 mb-5">
+    <div class="row justify-content-center">
+      <img src="imagenes/marcas.png" alt="Image">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="services-website" id= stripe>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2 class="section-title">¿Por qué deberia vacunarme?</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in odio vitae diam blandit hendrerit. Mauris fermentum justo non elit finibus suscipit. Donec lobortis et diam eget suscipit. Praesent sit amet placerat felis. Integer pellentesque sagittis iaculis. Ut ligula tortor, imperdiet quis leo maximus, vestibulum laoreet est. Aenean eget ullamcorper lectus. Sed pellentesque risus sapien, sit amet porta risus maximus at. Quisque sagittis eros a euismod porttitor. Etiam sodales libero nulla, eu maximus nisi tincidunt sit amet. Curabitur convallis, erat nec consectetur volutpat.
+                </p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section>
+  <div class="container mt-5 mb-5" id= noticia> <!--mt margin top-->
+    <div class="row justify-content-center">
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2"> <!--pantallas pequeñas medianas grandes-->
+        <div class="card">
+          <div title ="Virus peligroso" class="cover cover-small" style="background-image: url(imagenes/exp1.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Minimiza la propagación del virus</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+        <div class="card">
+          <div title ="Anticuerpos" class="cover cover-small" style="background-image: url(imagenes/exp2.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Creación De Anticuerpos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+        <div class="card">
+          <div title="Proteccion seres queridos" class="cover cover-small" style="background-image: url(imagenes/exp3.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Protege A Tus Seres Queridos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+          </div>
+        </div>
+      </div>
+
+      <div class ="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+        <div class="card">
+          <div title ="creando inmunidad" class="cover cover-small" style="background-image: url(imagenes/exp4.jpg);"></div>
+          <div class="card-body">
+            <h5 class="card-title">Crea un Grupo de Inmunudad</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="services-website" id= regulacion>
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="imagenes/enfermera.jpg" alt="Image">
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title">Preparándose para la Vacunación	</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in odio vitae diam blandit hendrerit. Mauris fermentum justo non elit finibus suscipit. Donec lobortis et diam eget suscipit. Praesent sit amet placerat felis. Integer pellentesque sagittis iaculis. Ut ligula tortor, imperdiet quis leo maximus, vestibulum laoreet est. Aenean eget ullamcorper lectus. Sed pellentesque risus sapien, sit amet porta risus maximus at. Quisque sagittis eros a euismod porttitor. Etiam sodales libero nulla, eu maximus nisi tincidunt sit amet.
+               </p>
+
+               <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bebida" aria-expanded="false" aria-controls="bebida">
+                  Evita tomar bebidas alcohólicas
+                </button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#estres" aria-expanded="false" aria-controls="estres">
+                  Evita el estrés
+                </button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#comida" aria-expanded="false" aria-controls="comida">
+                  Ingiere comida saludable
+                </button>
+                
+                <p>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dormir" aria-expanded="false" aria-controls="dormir">
+                    Duerme bien
+                  </button>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#fisica" aria-expanded="false" aria-controls="fisica">
+                    Realiza actividades físicas
+                  </button>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#medico" aria-expanded="false" aria-controls="medico">
+                    Sigue las indicaciones medicas
+                  </button>
+
+                </p>
+
+
+              </p>
+
+              <div class="collapse" id="bebida">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger. Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+              <div class="collapse" id="estres">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+              <div class="collapse" id="comida">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+              <div class="collapse" id="dormir">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+              <div class="collapse" id="fisica">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+              <div class="collapse" id="medico">
+                <div class="card card-body">
+                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                </div>
+              </div>
+
+
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+  <div class ="services-website" id="registro">
+    <div class="container mt-5 mb-5">
+      <h2 class= "section-title">Contacto de Emergencia</h2>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 mt-2">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in odio vitae diam blandit hendrerit. Mauris fermentum justo non elit finibus suscipit. Donec lobortis et diam eget suscipit. Praesent sit amet placerat felis. Integer pellentesque sagittis iaculis. Ut ligula tortor, imperdiet quis leo maximus, vestibulum laoreet est. Aenean eget ullamcorper lectus. Sed pellentesque risus sapien, sit amet porta risus maximus at. Quisque sagittis eros a euismod porttitor. Etiam sodales libero nulla, eu maximus nisi tincidunt sit amet. Curabitur convallis, erat nec consectetur volutpat.
+          </p>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-5 mt-2">
+              <div class="card p-4 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/tel.PNG);"></div>
+                <h3 class="mt-2">Telefono</h3>
+                <p>5555555555</p>
+                <span class="badge bg-primary">Llamanos</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 mt-2">
+              <div class="card p-4 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/email.PNG);"></div>
+                <h3 class="mt-2">Correo</h3>
+                <p>ejemplo@hotmail.com</p>
+                <span class="badge bg-primary">Escribenos</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 mt-2">
+              <div class="card p-4 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/chat.PNG);"></div>
+                <h3 class="mt-2">Chat</h3>
+                <p>5555555555</p>
+                <span class="badge bg-primary">Mensajeanos</span>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-5 mt-2">
+              <div class="card p-4 text-center">
+                <div class="avatar rounded-circle inline-block" style="background-image: url(imagenes/video.PNG);"></div>
+                <h3 class="mt-2">Video</h3>
+                <p>5555555555</p>
+                <span class="badge bg-primary">Videollamanos</span>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 mt-2">
+          <p>
+            <img src="imagenes/contacto.png" alt="Image">
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in odio vitae diam blandit hendrerit. Mauris fermentum justo non elit finibus suscipit. Donec lobortis et diam eget suscipit. Praesent sit amet placerat felis. Integer pellentesque sagittis iaculis. Ut ligula tortor, imperdiet quis leo maximus, vestibulum laoreet est. Aenean eget ullamcorper lectus. Sed pellentesque risus sapien, sit amet porta risus maximus at. Quisque sagittis eros a euismod porttitor. Etiam sodales libero nulla, eu maximus nisi tincidunt sit amet. Curabitur convallis, erat nec consectetur volutpat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</section>
+
+
+
+
+<section> <!--Texto Final-->
+  <div class="container mt-5 mb-5">
+    <p>
+      Vivamus bibendum elementum est, ac rutrum neque lobortis sed. Nulla quis felis magna. Integer quis tortor nisl. Quisque sed magna id orci venenatis lacinia. Donec interdum euismod est non congue. Maecenas tristique et ex ac vestibulum. Ut fermentum bibendum eros. Morbi ligula nunc, rhoncus ac mollis egestas, pretium vel erat. Cras semper urna sit amet metus aliquet mollis. Sed maximus, magna non feugiat ornare, sem enim fermentum mauris, at porta orci velit in erat. Quisque aliquam eleifend sapien, at aliquam sapien laoreet id.
+  </p>
+  
+  
+
+
+
+  <div class="alert alert-primary" role="alert">
+    Si tienes alguna pregunta no dudes en contactarnos, estamos a tu disposición
+  </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<div class="footer">  <!-- Footer Inicio -->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-5">
+              <div class="footer-about">
+                  <h2>Vacunación</h2>
+                  <p>
+                      Nuestra meta es ayudar a liberar al mundo de la pandemia que está ocurriendo en estos momentos
+                  </p>
+                  <br>
+                  <p><i class="fa fa-map-marker"></i>Formas de contactácnos</p>
+                  <p><i class="fa fa-phone"></i>5555555555</p>
+                  <p><i class="fa fa-envelope"></i>correo@hotmail.com</p>
+              </div>
+          </div>
+          <div class="col-md-7">
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="footer-link">
+                          <h2>Acerca</h2>
+                          <a href="">Conócenos</a>
+                          <a href="">Características</a>
+                          <a href="">Noticias y Blog</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="footer-link">
+                          <h2>Compañía</h2>
+                          <a href="">¿Cómo trabajamos?</a>
+                          <a href="">Capital</a>
+                          <a href="">Seguridad</a>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="footer-link">
+                        <h2>Acceso </h2>
+                        <a href="">Soporte</a>
+                        <a href="">FAQs</a>
+                        <a href="">Centro de Soporte</a>
+                        <a href="">Contáctanos</a>
+                    </div>
+                </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+  <div class="container copyright">
+      <div class="row">
+          <div class="col-md-6">
+              <p>&copy; All Right Reserved</p>
+          </div>
+          <div class="col-md-6">
+              <p>Terminos y condiciones Privacidad</p>
+          </div>
+      </div>
+  </div>
+</div> <!-- Footer Final-->
+  
+<!-- Optional JavaScript; choose one of the two! -->
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  
+</body>
+</html>
